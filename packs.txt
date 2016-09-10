@@ -11,9 +11,9 @@ language-haml@0.23.15
 laravel-snippets@2.1.0
 linter@1.11.14
 linter-csslint@1.3.2
+linter-eslint@7.3.0
 linter-htmlhint@1.2.1
 linter-js-yaml@1.2.5
-linter-jshint@2.1.0
 linter-php@1.2.0
 linter-phpcs@1.4.0
 linter-phpmd@1.5.0
