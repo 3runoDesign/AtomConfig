@@ -1,0 +1,15 @@
+atom-alignment@0.12.1
+atom-autocomplete-php@0.20.2
+atom-wrap-in-tag@0.6.0
+cobalt2-syntax@0.4.0
+docblockr@0.9.1
+editorconfig@2.1.0
+emmet@2.4.3
+file-icons@2.0.3
+hyperclick@0.0.39
+language-blade@0.26.2
+language-pug@0.0.19
+pigments@0.38.0
+sort-lines@0.14.0
+
+

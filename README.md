@@ -9,16 +9,29 @@
 - I made some modifications to the [stylesheet](https://github.com/3runoDesign/my-Atom/resource/styles.less) of my Atom;
 
 ## Packages
-Coming soon.
+
+### Tools
+- [Atom alignment](https://atom.io/packages/atom-alignment)
+- [Atom autocomplete-php](https://atom.io/packages/atom-autocomplete-php)
+- [Atom wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
+- [Cobalt2](https://github.com/wesbos/cobalt2-atom)
+- [Doc Blockr](https://atom.io/packages/docblockr)
+- [EditorConfig](https://atom.io/packages/editorconfig)
+- [Emmet](https://atom.io/packages/emmet)
+- [File-icons](https://atom.io/packages/file-icons)
+- [Hyperclick](https://atom.io/packages/hyperclick)
+- [Pigments](https://atom.io/packages/pigments)
+- [Sort-lines](https://atom.io/packages/sort-lines)
+
+### Syntax Language
+- [Blade](https://atom.io/packages/language-blade)
+- [Pug](https://atom.io/packages/language-pug)
 
 ## How Install
-
 ```shell
-#Cobalt2-Atom
-apm install cobalt2-syntax
-```
-```shell
-#Install all packs | Coming soon.
+  cd ~
+  curl -s https://cdn.rawgit.com/3runoDesign/my-Atom/master/resource/package-list.txt > package-list.txt
+  apm install --packages-file ~/package-list.txt
 ```
 
 ## Copyright
