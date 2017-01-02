@@ -11,6 +11,4 @@ language-blade@0.26.2
 language-pug@0.0.19
 pigments@0.38.0
 sort-lines@0.14.0
-
-
 todo-show@1.8.0
