@@ -6,7 +6,7 @@
 
 - For the syntax theme I use [Cobalt2-Atom](https://github.com/wesbos/cobalt2-atom);
 - I'm currently using [Operator Mono](http://www.typography.com/fonts/operator/overview/) for a font;
-- I made some modifications to the [stylesheet](https://github.com/3runoDesign/my-Atom/resource/styles.less) of my Atom;
+- I made some modifications to the [stylesheet](https://github.com/3runoDesign/my-Atom/blob/master/resource/styles.less) of my Atom;
 
 ## Packages
 
