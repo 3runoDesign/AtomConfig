@@ -33,6 +33,8 @@
   curl -s https://cdn.rawgit.com/3runoDesign/my-Atom/master/resource/package-list.txt > package-list.txt
   apm install --packages-file ~/package-list.txt
 ```
+## Suggestion
+Your favorite editor is Atom too? Do you have any suggestion of package or the like? Open a [issue](https://github.com/3runoDesign/my-Atom/issues).
 
 ## Copyright
 Copyright 2017.
