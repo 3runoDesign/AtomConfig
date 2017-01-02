@@ -13,3 +13,4 @@ pigments@0.38.0
 sort-lines@0.14.0
 
 
+todo-show@1.8.0
