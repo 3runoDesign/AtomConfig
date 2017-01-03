@@ -1,21 +1,55 @@
 /*
- * My Stylesheet to Atom
- *
- * Bruno Fernando
- */
+* My Stylesheet to Atom
+*
+* Bruno Fernando
+*/
 
-// Font size of the tree view
-.tree-view {
-  font-size: 1.2em;
+.font-italic {
+  font-style: italic;
+  vertical-align: baseline;
+  height: inherit;
 }
 
-// Font Family on the atom-text-editor-element itself
+.font-main {
+  font-family: 'Fira Code';
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
 atom-text-editor {
-  font-family: "Operator Mono";
+  &:extend(.font-main);
 }
 
-// Style on the cursor
-atom-text-editor::shadow .cursor {
-  border-color: #fffc67;
-  border-width: 4px;
+atom-text-editor::shadow {
+  .string.quoted,
+  .string.regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+
+  // Style on the cursor
+  .cursor {
+    border-color: #fffc67;
+    border-width: 4px;
+  }
+
+  .comment {
+    &:extend(.font-italic);
+  }
+
+  .text.html .attribute-name,
+  .source.js.jsx > .keyword.control.flow.js,
+  .storage, .type .function {
+    &:extend(.font-italic);
+    font-weight: bold;
+    background-color: transparent !important;
+  }
+
+  .source.js.jsx,
+  .storage.type.function.arrow.js,
+  .variable {
+    &:extend(.font-main);
+    background-color: transparent;
+    font-weight: bold;
+  }
+
 }
