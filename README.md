@@ -1,6 +1,6 @@
 > These are my settings and packages that I currently use.
 
-# My Atom
+# My Editor
 [Atom.io](https://atom.io/) is my favorite editor. Casually I use **Sublime Text**.
 > Soon I will publish my settings and packages for the **Sublime Text**.
 
