@@ -16,38 +16,48 @@
   text-rendering: optimizeLegibility;
 }
 
+.tree-view {
+  font-size: 1.5em;
+
+  .header:before {
+    font-size: 1em !important;
+    opacity: .6;
+    margin-right: 5px !important;
+  }
+}
+
 atom-text-editor {
   &:extend(.font-main);
   background-color: transparent;
-}
 
-atom-text-editor::shadow {
   .string.quoted,
   .string.regexp {
     -webkit-font-feature-settings: "liga" off, "calt" off;
   }
 
-  // Style on the cursor
-  .cursor {
-    border-color: #fffc67;
+   .cursor {
+    border-color: #fffc67 !important;
     border-width: 4px;
   }
 
-  .comment {
+  .syntax--comment {
     &:extend(.font-italic);
   }
 
-  .text.html .attribute-name,
-  .source.js.jsx > .keyword.control.flow.js,
-  .storage, .type .function {
+  .syntax--html .syntax--attribute-name,
+  .syntax--js .syntax--variable,
+  .syntax--js .syntax--new,
+  .syntax--type .syntax--function,
+  .syntax--keyword.syntax--control.flow.js,
+  .syntax--storage {
     &:extend(.font-italic);
-    font-weight: bold;
     background-color: transparent !important;
+    font-weight: bold;
   }
 
-  .source.js.jsx,
-  .storage.type.function.arrow.js,
-  .variable {
+  .syntax--entity.syntax--name,
+  .syntax--storage.syntax--type.syntax--function.syntax--arrow.syntax--js,
+  .syntax--variable {
     &:extend(.font-main);
     background-color: transparent;
     font-weight: bold;
